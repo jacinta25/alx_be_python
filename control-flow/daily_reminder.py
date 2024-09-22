@@ -1,3 +1,5 @@
+# daily_reminder.py
+
 # Prompt for a single task
 task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ").lower()
@@ -27,4 +29,4 @@ match priority:
         reminder = "Invalid priority level."
 
 # Print the reminder
-print(reminder)
+print(f"Reminder: {reminder}")
